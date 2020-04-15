@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:scaleType="center"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/BotaoJogar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/BotaoJogar"
         android:layout_width="347dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
